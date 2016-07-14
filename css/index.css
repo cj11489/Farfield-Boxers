@@ -1,0 +1,222 @@
+body {
+	/*background-image: url("../img/Optimized-ricepaper2.png");*/
+}
+/*.jumbotron {
+	background-image: url("../img/example-boxer-image-2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 0px;
+	height: 700px;
+}*/
+h1 {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	padding-left: 1%;
+}
+/*.main-body {
+	margin-left: 5%;
+	margin-right: 5%;
+}*/
+.navbar-default {
+	/*background-color: #7ABFA5;*/
+	background-color: #FFF;
+	opacity: 0.9;
+	border: none;
+}
+.navbar-default a {
+	color: #000;
+	font-family: BrandonGrotesqueRegular,Helvetica,Arial,sans-serif;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #000;
+	font-family: BrandonGrotesqueRegular,Helvetica,Arial,sans-serif;
+	padding-left: 40px;
+	padding-right: 40px;
+	height: 52px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: #7ABFA5;
+	color: #FFF;
+}
+.navbar-project-name {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+/*.btn-primary {
+	
+}
+img {
+	height: 700px;
+	margin: 0 auto;
+}*/
+.space {
+	margin-top: 52px;
+}
+.welcome-section {
+	height: 100vh;
+	background-image 
+}
+.welcome-section #welcome-image {
+    background: url("../img/James+dogs.jpg") no-repeat center center;
+    background-size: cover;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    float: right; 
+    margin-right: 15%;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-responsive {
+	margin-left: auto;
+	margin-right: auto;
+}
+.container-fluid>#carousel {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.carousel-caption h1 {
+	float: center;
+	margin-bottom: 0;
+	font-size: 5em;
+	border: 5px #FFF;
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-top: 0;
+}
+.carousel-caption {
+	border-style: solid;
+	border-width: 5px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 17%;
+}
+.welcome-button {
+	height:20px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:32%;
+    margin-top: -400px;
+}
+button.btn.btn-default {
+	height: 50px;
+	width: 559px;
+	background-color: #FFF;
+	opacity: 0.8;
+	border-radius: 0%;
+	border: none;
+}
+button.btn.btn-default:hover {
+	background-color: #7ABFA5;
+	color: #FFF;
+}
+.container-fluid #intro-text {
+	text-align: center;
+	margin-top: 200px;
+	height: 450px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.container-fluid #intro-text h1 {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #7ABFA5;
+	color: #7ABFA5;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: BrandonGrotesqueRegular,Helvetica,Arial,sans-serif
+}
+.container-fluid #intro-text p {
+	font-family: BrandonGrotesqueRegular,Helvetica,Arial,sans-serif;
+	font-size: 1.25em;
+	line-height: 2em;
+}
+.main-page {
+
+}
+#main-section.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: #7ABFA5;
+	color: #FFF;
+	width: 100%;
+	height: 500px;
+}
+.main-page-thumbnail {
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+}
+#left.main-page-thumbnail {
+	float: left;
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 100px;
+}
+/*.hero {
+  background: url("../img/example-boxer-image-2.jpg") no-repeat center center;
+  background-size: cover; 
+  background: transparent;
+  height: 100vh; }
+  .hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #FFF, #000);
+    opacity: .7; }
+  .hero .intro {
+    padding: 3rem;
+    position: relative;
+    top: 60%;
+    transform: translateY(-50%); }
+  .hero .small-centered {
+  	top: 50%;
+  }
+  .hero h1 {
+    color: #000;
+    font-size: 5rem;
+    line-height: 1.5em;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+    text-align: left; }
+  .hero p {
+    color: #fff;
+    line-height: 1.75em;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 2rem; }
+  .hero .inner-img {
+    background: url("../img/James+dogs.jpg") no-repeat center center;
+    background-size: cover;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; }
+  @media only screen and (min-width: 40.063em) {
+    .hero .tech-img {
+      height: 18rem;
+      width: 18rem; }
+    .hero h1 {
+      padding-top: 4.5rem;
+      text-align: left;
+      font-size: 5rem; }
+    .hero p {
+      text-align: right; } }*/
