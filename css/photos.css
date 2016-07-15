@@ -1,0 +1,42 @@
+.photos {
+	margin-top: 43px;
+	margin-bottom: 100px;
+}
+.img {
+    position: relative;
+    width: 356.66px;
+    height: 346.66px;
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-offset {
+	position: relative;
+    width: 356.66px;
+    height: 346.66px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#picture {
+	margin-top: 10px;
+}
+.page-title {
+	margin: 80px;
+}
+.row {
+	margin-left: 80px;
+	margin-right: 80px;
+}
+h1 {
+	color: #7ABFA5;
+}
+hr {
+	width: 100%;
+	height: 5px;
+	background-color: #7ABFA5;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.page-header {
+	border: none;
+}
