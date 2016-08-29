@@ -1,0 +1,89 @@
+.topContent {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.topContent header h1 {
+	margin-bottom: 5%;
+}
+
+.topContent header {
+	margin-bottom: 5%;
+}
+
+.topContentHeader h1 {
+	padding-left: 0;
+}
+
+.image-wrapper {
+	position: relative;
+	height: 350px;
+	width: 350px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+}
+
+#photo-3.image-wrapper {
+	background-position: top;
+}
+
+#photo-6, #photo-7, #photo-8, #photo-9.image-wrapper {
+	background-position: left;	
+}
+
+#photo-1.image-wrapper {
+	background-image: url('../img/James+dogs2.jpg');
+}
+
+#photo-2.image-wrapper {
+	background-image: url('../img/max+profile.jpg');
+}
+
+#photo-3.image-wrapper {
+	background-image: url('../img/sarah+windy.jpg');
+}
+
+#photo-4.image-wrapper {
+	background-image: url('../img/hills.jpg');
+}
+
+#photo-5.image-wrapper {
+	background-image: url('../img/puppy.jpg');
+}
+
+#photo-6.image-wrapper {
+	background-image: url('../img/show.jpg');
+}
+
+#photo-7.image-wrapper {
+	background-image: url('../img/max.jpg');
+}
+
+#photo-8.image-wrapper {
+	background-image: url('../img/sarah+dogs.jpg');
+}
+
+#photo-9.image-wrapper {
+	background-image: url('../img/show2.jpg');
+}
+
+#picture {
+	margin-top: 2%;
+}
+
+
+/* media queries */
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+
+	.image-wrapper {
+		height: 250px;
+		width: 250px;
+	}
+
+
+}

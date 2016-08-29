@@ -28,6 +28,7 @@ h1 {
 	background-color: #FFF;
 	opacity: 0.9;
 	border: none;
+	border-bottom: solid;
 }
 .navbar-default a {
 	color: #000;
@@ -115,15 +116,18 @@ img {
 a.btn.btn-default {
 	height: 50px;
 	width: 559px;
-	background-color: #FFF;
-	opacity: 0.8;
 	border-radius: 0%;
 	border: none;
 	padding-top: 13%;
+	background-color: #FFF;
+	opacity: 0.7;
 }
 a.btn.btn-default:hover {
-	background-color: #7ABFA5;
 	color: #FFF;
+	background-color: #7ABFA5;
+}
+button, html [type="button"], [type="reset"], [type="submit"] {
+	webkit-appearance: none;
 }
 
 .container-fluid #intro-text {
@@ -146,6 +150,7 @@ a.btn.btn-default:hover {
 	font-family: BrandonGrotesqueRegular,Helvetica,Arial,sans-serif;
 	font-size: 1.25em;
 	line-height: 2em;
+	margin-top: 20px;
 }
 .main-page {
 	margin-top: 100px;
@@ -192,6 +197,17 @@ a.btn.btn-default:hover {
 	position: inherit;
 	padding-top: 14%;
 	width: 550px;
+}
+footer {
+	width: 100%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 1.5%;
+	padding-top: 1.5%;
+	color: #000;
+	display: block;
+	float: left;
+	border-top: solid;
 }
 /*.hero {
   background: url("../img/example-boxer-image-2.jpg") no-repeat center center;

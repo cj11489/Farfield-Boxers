@@ -1,25 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	    <title>Farfield Boxers</title>
 		<meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <title>Farfield Boxers</title>
 
 	    <!-- Latest compiled and minified CSS -->
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Pacifico" rel="stylesheet">
+	    <link href="css/new_index.css" rel="stylesheet">
 	    
-
-
-	    <!-- Bootstrap core CSS -->
-	    <link href="css/bootstrap.css" rel="stylesheet">
-	    <!-- Custom styles for this template go here -->
-
 
 	    <!-- jQuery starts here (required for Bootstrap to work) -->
 	    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-	    <script src="js/jquery.media.js" type="text/javascript"></script>
 	    <!--jQuery files end here-->
 
 	    <!-- JavaScript files start here-->
@@ -27,94 +20,72 @@
 	    <script src="js/scripts.js"></script>
 	    <!--JavaScript files end here-->
 
-	    <!--css files start here-->
-	    <link href="css/index.css" rel="stylesheet">
-	    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
-
-
-    	<!--css files end here-->
 	</head>
-	<body>
-		<div class="main-body">
-			<nav class="navbar navbar-default navbar-fixed-top" role="navigation"> <!--navbar navbar-default navbar-static-top (POSITIONS NAVBAR UNDERNEATH JUMBOTRON) -->
-		      <div class="container-fluid-navigation-main">
-		        <div class="row" id="nav-row">
-		          <div class="col-sm-6 col-md-offset-1 col-md-5">
-		            <div class="navbar-project-name">
-		              <a href="#">FARFIELD BOXERS</a>
-		            </div>
-		          </div><!--col end-->
-		          <div class="col-sm-8 col-md-6">
-		            <div class="navbar-header">
-		              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-		              <span class="sr-only">Toggle navigation</span>
-		              <span class="icon-bar"></span>
-		              <span class="icon-bar"></span>
-		              <span class="icon-bar"></span>
-		              </button>
-		            </div><!--navbar-header end-->
-		            <div class="navbar-collapse collapse">
-		              <ul class="nav navbar-nav">
-		                <li><a href="#home"><span class="glyphicon glyphicon-home"></span></a></li>
-		                <li><a href="#about">ABOUT</a></li>
-		                <li><a href="#contact">CONTACT</a></li>
-		                <li><a href="#FAQ">FAQ</a></li>
-		              </ul>
-		            </div><!--navbar-collapse-collapse end-->
-		          </div><!--col end-->
-		        </div><!--nav-row ends-->
-		      </div><!--nav container ends-->
-		    </nav><!--navbar ends-->
-		    <section class="space"></section>
-		   	<section class="welcome-section">
-   				<div class="center-block">
-			        <img src="img/example-boxer-image-2.jpg" alt="boxer1" class="img-responsive">
-			        <div class="name-button">
-				        <div class="carousel-caption" id="carousel-caption-1">
-	             			<h1>Farfield Boxers</h1>
-	            		</div>
-	            		<div class="welcome-button">
-	            			<a href="#intro-section" <button type="button" class="btn btn-default">Welcome</button></a>
-	            		</div><!--welcome button end-->
-	            	</div><!--name+button end-->
-            	</div>
-		   	</section><!-- welcome end-->
-		   	<section class="container-fluid" id="intro-section">
-		   		<div class="container-fluid" id="intro-text">
-		   			<h1>ABOUT</h1>
-		   			<p>Farfield Boxers were established by my late father Les Whitfield in 1956.  For over 60 years our kennel has always been small and select, breeding for quality and character and producing champions along the way!</p>
+	<body class="body">
+		<header class="main-header">
+			<div class="welcome">
+				<div class="image-wrapper" id="welcome">
+					<img src="img/example-boxer-image-2.jpg">
+	            	<span class="image-overlay">
+	            		<span class="content" id="welcome-image">Farfield Boxers</span>
+	            	</span>
+	        	</div>
+	        </div>
+			<nav>
+				<ul>
+				  <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+				  <li><a href="photos.html">PHOTOS</a></li>
+				  <li><a href="contact.html">CONTACT</a></li>
+				  <li><a href="faqs.html">FAQ</a></li>
+				  <li><a href="awards.html">AWARDS</a></li>				  
+				</ul>
+			</nav>
+		</header>
+		<div class="mainContent">
+			<div class="content">
+				<article class="topContent">
+					<header class="topContentHeader">
+						<h1>ABOUT</h1>
+					</header>
+					<content>
+			   			<p>Farfield Boxers were established by my late father Les Whitfield in 1956.  For over 60 years our kennel has always been small and select, breeding for quality and character and producing champions along the way!</p>
 
-		   			<p> Since the 1990’s my Dad and I shared the Farfield affix in partnership.  After a short break from showing Farfield Boxers is now back in the ring in 2013 with Panabolo Strike a Deal with Farfield.</p>
-		   		</div>	
-		   	</section><!--intro section end-->
-		   	<section class="container-fluid" id="main-section">
-		   		<div class="main-page">
-		   			<div class="row">
-		   				<div class="col-sm-12 col-md-4 col-lg-4">
-				   			<a href="#"><img src="img/James+dogs.jpg" class="main-page-thumbnail" id="left"></a>
-				   		</div>
-				   		<div class="col-sm-12 col-md-8 col-lg-8">
-				   			<h2 class="main-page-header" id="right">Check out our latest photo's!</h2>
-				   		</div>
-				   	</div>
-				   	<div class="row">
-				   		<div class="col-sm-12 col-md-8 col-lg-8">
-				   			<h2 class="main-page-header" id="left">Please feel free to get in contact with us</h2>
-				   		</div>
-				   		<div class="col-sm-12 col-md-4 col-lg-4">
-				   			<a href="#"><img src="img/contact-photo.jpg" class="main-page-thumbnail" id="right"></a>
-				   		</div>
-				   	</div>
-				   	<div class="row">
-				   		<div class="col-sm-12 col-md-4 col-lg-4">
-				   			<a href="#"><img src="img/faq.jpg" class="main-page-thumbnail" id="left"></a>
-				   		</div>
-				   		<div class="col-sm-12 col-md-8 col-lg-8">
-				   			<h2 class="main-page-header" id="right">If you have any questions, please check out our FAQ section</h2>
-				   		</div>
-				   	</div><!--row end-->
-		   		</div>
-		   	</section><!--main section end-->
-		</div><!--main body end-->
+			   			<p> Since the 1990’s my Dad and I shared the Farfield affix in partnership.  After a short break from showing Farfield Boxers is now back in the ring in 2013 with Panabolo Strike a Deal with Farfield.</p>
+					</content>
+				</article>
+				<article class="bottomContent" id="index-page">
+					<div class="main-page">
+						<div class="bottom-styles">
+				          <div class="row">
+				            <div class="col-md-12 col-lg-12 col-sm-12" id="photosContent">
+				              <div class="image-wrapper" id="photos">
+				                <a href="photos.html"><span class="image-overlay">
+				                  <span class="content" id="about-me">Photos</span>
+				                </span></a>
+				              </div>
+				            </div>
+				            <div class="col-md-12 col-lg-12 col-sm-12" id="contactContent">
+				              <div class="image-wrapper" id="contact">
+				                <a href="contact.html"><span class="image-overlay">
+				                  <span class="content" id="contact-us">Contact Us</span>
+				                </span></a>
+				              </div>
+				            </div>
+				            <div class="col-md-12 col-lg-12 col-sm-12" id="faqContent">
+				              <div class="image-wrapper" id="faq">
+				                <a href="faqs.html"><span class="image-overlay">
+				                  <span class="content" id="faq"></span>
+				                </span></a>
+				              </div>
+				            </div>			      
+				          </div>
+				        </div>
+				    </div>
+		        </article>
+			</div>
+		</div>
+    	<footer class="mainFooter">
+			<p>&copy; Farfield Boxers | 2016</p> 
+		</footer>
 	</body>
 </html>
