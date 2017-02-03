@@ -1,93 +1,45 @@
 body {
-	overflow-x: hidden;
+	background-color: #FFF;
 }
 
 .body {
 	margin: 0 auto;
-	width: 90%;
+	width: 80%;
+	clear: both;
 }
 
-h1 {
-	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
-	font-size: 50px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-	padding-bottom: 3%;
-	padding-top: 3%;
-	padding-left: 1%;
-}
-
-.main-header img {
-	width: 100%;
-	height: auto;
+.main-header {
 	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
-.welcome span .image-overlay {
-	height: auto;
+.navbar-default {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
 }
 
-.welcome .image-wrapper .image-overlay {
-	position: absolute;
-	height: 200px;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	color: #FFF;
+.navbar-default .navbar-nav>li>a {
+	font-size: 1em;
 }
 
-.welcome .image-wrapper .image-overlay .content {
-	position: absolute;
-	font-family: 'Josefin Sans', sans-serif;
-	margin-top: 28%;
-	margin-left: 15%;
-	height: 150px;
-	padding-top: 0.66%;
-	text-align: center;
-	width: 70%;
-	font-size: 7.5em;
-	font-weight: 400;
-	color: #FFF;
-	border: solid 5px #FFF;
-}
-
-.main-header nav {
-	margin-top: 25px;
-	background-color: #7ABFA5;
-	height: 53px;
-}
-
-.main-header nav ul {
-	list-style: none; /*removes bullet points*/
-	margin: 0 auto;
-	padding-left: 13.34%;
-}
-
-.main-header nav ul li {
-	float: left;
-	display: inline;
-	width: 16.9%;
-	text-align: center;
-}
-
-.main-header nav a:link, .main-header nav a:visited {
-	color: #FFF;
-	display: inline-block;
-	padding: 15px 0px;
-	height: 53px; /* add height here so the background color detailed below fits perfectly in the nav bar*/
-	text-decoration: none;
-}
-
-.main-header nav a:hover, .main-header nav a:active, 
-.main-header nav .active a:link, .main-header nav .active a:visited {
-	background-color: #FFF;
-	text-shadow: none;
-	text-decoration: none;
+.container {
 	width: 100%;
-	color: #7ABFA5;
+}
+
+.jumbotron {
+	background-image: url('../img/FFB_007'); /*alternative image FFB_001*/
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: #FFF;
+}
+
+.text-right h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 7em;
+	margin-top: 10%;
+	margin-left: 2%;
 }
 
 .mainContent {
@@ -100,28 +52,60 @@ h1 {
 
 .topContent {
 	text-align: center;
-	margin-top: 100px;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 100px;
+	margin-top: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 50px;
+	padding-bottom: 5%;
 	height: auto;
-}
-
-.topContent header h1 {
-	font-family: 'Josefin Sans', sans-serif;
-	color: #7ABFA5;
-	height: 75px;
-	width: 80%;
-	margin: 0 auto;
-	margin-bottom: 8%;
-	line-height: 27px;
-	padding-bottom: 0%;
+	border-bottom: solid 1px #7ABFA5;
 }
 
 .topContent p {
 	font-size: 1.25em;
-	line-height: 2em
+	line-height: 2em;
+	font-family: 'Josefin Sans', sans-serif;
 }
+
+.middleContentA, .middleContentB {
+	margin-top: 5%;
+	text-align: center;
+	border-bottom: solid 1px #7ABFA5;
+}
+
+.fill {
+  object-fit: fill;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.none {
+  object-fit: none;
+}
+
+.scale-down {
+  object-fit: scale-down;
+}
+
+
+
+
+
+/*Code below still to be reviewed*/
+
+
+
+
+
+
+
+
 
 /* start of new bottom content styles */
 
@@ -327,25 +311,6 @@ hr {
 
 	.body {
 		width: 95%;
-	}
-
-	.main-header nav {
-		height: 265px;
-		padding-left: 0;
-	}
-
-	.main-header nav ul {
-		padding-left: 0%;
-	}
-
-	.main-header nav ul li {
-		width: 100%;
-		text-align: center;
-	}
-
-	.main-header nav a:hover, .main-header nav a:active, 
-	.main-header nav .active a:link, .main-header nav .active a:visited {
-		width: 100%;
 	}
 
 	.topContent p {

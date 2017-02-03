@@ -1,6 +1,8 @@
 .topContent {
 	margin-left: 0;
 	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .topContent header h1 {
@@ -17,14 +19,13 @@
 
 .image-wrapper {
 	position: relative;
-	height: 350px;
-	width: 350px;
+	height: 200px;
+	width: 200px;
 	margin: 0 auto;
 	overflow: hidden;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	border-radius: 50%;
 }
 
 #photo-3.image-wrapper {
