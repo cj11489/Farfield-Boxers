@@ -56,146 +56,46 @@ body {
 	padding-left: 10%;
 	padding-right: 10%;
 	margin-bottom: 50px;
-	padding-bottom: 5%;
 	height: auto;
-	border-bottom: solid 1px #7ABFA5;
 }
 
-.topContent p {
+.topContent, .middleContent p {
 	font-size: 1.25em;
 	line-height: 2em;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-.middleContentA, .middleContentB {
-	margin-top: 5%;
+.middleContent {
+	padding-top: 5%;
 	text-align: center;
-	border-bottom: solid 1px #7ABFA5;
+	padding-bottom: 5%;
 }
 
-.fill {
-  object-fit: fill;
-}
-
-.contain {
-  object-fit: contain;
-}
-
-.cover {
-  object-fit: cover;
-}
-
-.none {
-  object-fit: none;
-}
-
-.scale-down {
-  object-fit: scale-down;
-}
-
-
-
-
-
-/*Code below still to be reviewed*/
-
-
-
-
-
-
-
-
-
-/* start of new bottom content styles */
-
-.bottomContent#index-page {
-	padding-left: 0px;
-	padding-right: 0px;
-	background-color: #7ABFA5;
-	color: #FFF;
-	width: 100%;
-	height: auto;
-}
-
-.main-page {
-	padding-top: 100px;
-}
-
-.bottomContent {
-	margin-top: 5%;
-	text-align: center;
-}
-
-.bottomContent #photosContent, #contactContent, #workContent, #faqContent {
-	height: 450px;
-}
-
-.bottom-styles .image-wrapper {
-	position: relative;
-	height: 400px;
-	width: 400px;
-	margin: 0 auto;
-	border-radius: 100%;
-	overflow: hidden;
-}
-
-#photos.image-wrapper {
-	background-image: url('../img/James+dogs.jpg');
-}
-
-#contact.image-wrapper {
-	background-image: url("../img/contact-photo.jpg");
-}
-
-#faq.image-wrapper {
-	background-image: url("../img/faq.jpg");
-}
-
-#photos, #contact, #faq.image-wrapper {
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	border-radius: 50%;
-}
-
-#faq.image-wrapper img {
-	height: auto;
-	width: 160%;
-}
-
-.bottom-styles .image-wrapper .image-overlay {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	color: #FFF;
-
-}
-
-.bottom-styles .image-wrapper:hover .image-overlay {
-	display: block;
-	background-color: rgba(255, 255, 255, .3);
-}
-
-.bottom-styles .image-wrapper .image-overlay .content {
-	position: absolute;
-	top: 50%;
-	left: 25%;
-	height: 20px;
-	width: 350px;
-	margin-top: -10px;
-	margin-left: -75px;
-	font-size: 5em;
+.middleContent>header>h1 {
+	padding-bottom: 2%;
 	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 300
 }
 
-/* end of new bottom content styles */
+article#sectionA.middleContent, article#sectionC.middleContent {
+	background-color: #ABDCC9;
+	border-radius: 6px;
+}
 
-hr {
-	width: 80%;
+article#sectionA.middleContent p {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#map {
+	margin: 0 auto;
+}
+
+.contact-details {
+	font-size: 1.5em;
+	margin-top: 60px;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .mainFooter {
@@ -221,88 +121,90 @@ hr {
 }
 
 /*media queries*/
+
+@media only screen and (min-width: 1640px) and (max-width: 2400px) {
+
+	.jumbotron {
+		height: 700px;
+	}
+
+}
+
+@media only screen and (min-width: 1740px) and (max-width: 1940px) {
+
+	.text-right h1 {
+		margin-right: 10%;
+	}
+
+}
+
+@media only screen and (min-width: 1940px) and (max-width: 2400px) {
+
+	.text-right h1 {
+		margin-right: 8%;
+		font-size: 9em
+	}
+}
  
+@media only screen and (min-width: 1100px) and (max-width: 1228px) {
 
-@media only screen and (min-width: 681px) and (max-width: 940px) {
-
-	.welcome .image-wrapper .image-overlay .content {
-	font-size: 5.5em;
-	padding-top: 2.66%;
-	}
-
-
-}
-
-@media only screen and (min-width: 581px) and (max-width: 680px) {
-
-	.welcome .image-wrapper .image-overlay .content {
-	font-size: 4.5em;
-	padding-top: 3.66%;
-	}
-
-
-}
-
-@media only screen and (min-width: 481px) and (max-width: 580px) {
-
-	.welcome .image-wrapper .image-overlay .content {
-	font-size: 3.5em;
-	padding-top: 5.66%;
+	.text-right h1 {
+		font-size: 6em;
 	}
 
 }
 
-@media only screen and (min-width: 401px) and (max-width: 560px) {
+@media only screen and (min-width: 960px) and (max-width: 1099px) {
 
-	.bottomContent #photosContent, #contactContent, #workContent, #faqContent {
-		height: 350px;
+	.text-right h1 {
+		font-size: 5em;
 	}
 
-	.bottom-styles .image-wrapper {
-		height: 300px;
-		width: 300px;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 991px) {
+
+	.contact-details {
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 
+}
 
-	.bottom-styles .image-wrapper .image-overlay .content {
-		left: 30%;
-		width: 250px;
+@media only screen and (min-width: 815px) and (max-width: 959px) {
+
+	.text-right h1 {
 		font-size: 4em;
 	}
 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 400px)  {
+@media only screen and (min-width: 150px) and (max-width: 814px) {
 
-	.main-page {
-	padding-top: 50px;
-	}
-
-	.bottomContent #photosContent, #contactContent, #workContent, #faqContent {
-		height: 300px;
-	}
-
-	.bottom-styles .image-wrapper {
-		height: 250px;
-		width: 250px;
-	}
-
-
-	.bottom-styles .image-wrapper .image-overlay .content {
-		left: 40%;
-		width: 200px;
+	.text-right h1 {
 		font-size: 3em;
+		padding-right: 5%;
 	}
 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 494px) and (max-width: 814px) {
 
-	.welcome .image-wrapper .image-overlay .content {
-	font-size: 2.5em;
-	padding-top: 5.66%;
-	height: 100px;
-	margin-top: 20%;
+	.jumbotron {
+		height: 300px;
+	}
+
+}
+
+@media only screen and (min-width: 150px) and (max-width: 493px) {
+
+	.text-right h1 {
+		color: #000;
+		margin-top: 20%;
+	}
+
+	.jumbotron {
+		height: 250px;
 	}
 
 }
