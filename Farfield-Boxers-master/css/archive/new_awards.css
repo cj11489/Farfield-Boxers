@@ -1,0 +1,17 @@
+.topContent header {
+	margin-bottom: 5%;
+}
+
+.topContent header h1 {
+	margin-bottom: 5%;
+}
+
+.topContent {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+p.awards {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 4em;
+}

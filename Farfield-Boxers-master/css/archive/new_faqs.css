@@ -1,0 +1,36 @@
+.topContent header {
+	margin-bottom: 5%;
+}
+
+.topContent header h1 {
+	margin-bottom: 5%;
+}
+
+.topContent {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.panel-group {
+	position: center;
+	text-align: left;
+	padding-bottom: 5%;
+	width: 80%;
+	margin: 0 auto;
+}
+.panel-default>.panel-heading:hover {
+	background-color: #7ABFA5;
+	color: #FFF;
+	-webkit-transition: color 0ms;
+	text-decoration: none;
+}
+.panel-default {
+	border: 0;
+}
+.panel-group a {
+	outline: 0;
+	text-decoration: none;
+}
+.panel-body {
+	color: #000;
+}
