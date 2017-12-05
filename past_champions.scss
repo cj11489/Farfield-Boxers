@@ -1,0 +1,54 @@
+.pastChampionProfilePics {
+    margin: 40px 0 60px;
+}
+
+.profile-img {
+    height: 260px;
+    width: auto;
+	box-shadow:  0 1px 5px 0 rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12);
+}
+
+.profile-img.profile-1 {
+    float: right;
+}
+
+.profile-img.profile-3 {
+    float: left;
+}
+
+.championProfileTable {
+    margin: 40px 0 20px;
+}
+
+.championsTable {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+// .table.pedigree-table {
+//     > tbody {
+//         > tr {
+//             > td {
+//                 border: solid 1px black;
+//             }
+//         }
+//     }
+// }
+
+.pedigreeTableContainer {
+    margin: 40px 0;
+}
+
+.table.pedigree-table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.table.pedigree-table>tbody>tr>td {
+    border: solid 1px #ddd;
+}
+
+.table.pedigree-table>tbody>tr>th {
+    border: none;
+}
