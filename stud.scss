@@ -1,0 +1,53 @@
+.studHeader {
+    margin-bottom: 40px;
+}
+
+.stud-img {
+    max-height: 421px;
+}
+
+.middle-context-text {
+    margin-top: 30px;
+}
+
+.bottomContent {
+	text-align: center;
+	margin-top: 80px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 80px;
+	height: auto;
+}
+
+.table {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #FFF;
+    box-shadow:  0 1px 5px 0 rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12);
+    font-family: 'Roboto-Regular', 'Arial', sans-serif;
+}
+
+.table > thead {
+    color: #FFF;
+    background-color: #2b949d;
+}
+
+.table > tbody {
+    text-transform: lowercase;
+    color: #333;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.stud-top-content-img {
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12);
+}
+  
+.bottom-content-imgs {
+    width: 100%;
+    padding: 50px 0px;
+}

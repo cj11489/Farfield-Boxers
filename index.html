@@ -7,7 +7,7 @@
 
 		<!--Stylesheets-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/new_index.css">
+		<link rel="stylesheet" href="css/new_index.scss">
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Pacifico" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Barrio|Dancing+Script|Pacifico" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -50,21 +50,18 @@
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav navbar-right">
 			        <li><a href="#home">Home</a></li>
-			        <li><a href="#">At Stud</a></li>
-			        <li><a href="#">Show Team</a></li>
-					<li><a href="#">Success</a></li>
+			        <li><a href="stud.html">At Stud</a></li>
+			        <li><a href="showTeam.html">Show Team</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Successes <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Past Champions</a></li>
-							<li><a href="#">Ticket Winners</a></li>
+							<li><a href="pastChampions.html">Past Champions</a></li>
+							<li><a href="ticketWinners.html">Ticket Winners</a></li>
 						</ul>
 					</li>
-					<li><a href="#">Past and Present</a></li>
-					<li><a href="#">Judging</a></li>
-					<li><a href="#">Useful Links</a></li>
-					<li><a href="#">Contact</a></li>
-			    
+					<li><a href="pastAndPresent.html">Past and Present</a></li>
+					<li><a href="judging.html">Judging</a></li>
+					<li><a href="usefulLinks.html">Useful Links</a></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
@@ -121,11 +118,16 @@
 						</div>
 					</content>
 				</article>
+			</div>
+		</div>
 
+        <!--google maps api-->
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATwnOlOOwXIdwonJDCagxaKkNgLzms8Zw&callback=initMap" async defer></script>
 
     	<footer class="mainFooter">
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 brand-logo">
+				<div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 brand-logo">
 					<div class="brand-container"> 
 						<p class="navbar-brand">
 							Farfield Boxers <br> <span class="established-date">Est. 1955</span>
@@ -134,21 +136,32 @@
 							<i class="material-icons">pets</i>
 						</p>
 					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 footer-links">
-					<div class="footer-main-content">
-						<h2 class="contact-us">Contact Us</h2>
-						<p><span class="glyphicon glyphicon-earphone"></span>&nbsp; +44(0)7771 661974</p><br>
-						<p><span class="glyphicon glyphicon-envelope"></span>&nbsp; <a href="mailto:farfieldboxers@gmail.com">farfieldboxers@gmail.com</a></p>
+                </div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 footer-links">
+                    <div class="footer-main-content">
+                        <h2 class="contact-us">Contact Us</h2>
+                        <p><span class="glyphicon glyphicon-earphone"></span>&nbsp; +44(0)7771 661974</p><br>
+                        <p><span class="glyphicon glyphicon-envelope"></span>&nbsp; <a href="mailto:farfieldboxers@gmail.com">farfieldboxers@gmail.com</a></p>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 brand-logo">
+					<div class="social-links"> 
+						<p class="facebook-link">
+							ADD FACEBOOK LINK HERE
+						</p>
 					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 footer-copyright">
+                </div> -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" id="map-div">
+                    <div class="map">
+                        <div id="map" style="height: 250px; width: 350px"></div>
+                    </div>
+                </div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 footer-copyright">
 					<div class="footer-copyright">
 						<p>Copyright &copy; Farfield Boxers | 2017</p>
 					</div>
-				</div>
+                </div>
 			</div>
-
-		</footer>
+        </footer>
 	</body>
 </html>

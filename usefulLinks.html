@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <title>Farfield Boxers</title>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--Stylesheets-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/new_index.scss">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Barrio|Dancing+Script|Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		rel="stylesheet">
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	    <!--JavaScript-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+	</head>
+	<body class="body" id="home">
+		<header class="main-header">
+
+			<!--nav bar-->
+
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+				  </button>
+				  <div class="brand-container"> 
+						<p class="navbar-brand">
+							Farfield Boxers <br> <span class="established-date">Est. 1955</span>
+						</p>
+					  	<p class="material-icon-container">
+						  <i class="material-icons">pets</i>
+						</p>
+				  </div>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="index.html">Home</a></li>
+			        <li><a href="stud.html">At Stud</a></li>
+			        <li><a href="showTeam.html">Show Team</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Successes <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="pastChampions.html">Past Champions</a></li>
+							<li><a href="ticketWinners.html">Ticket Winners</a></li>
+						</ul>
+					</li>
+					<li><a href="pastAndPresent.html">Past and Present</a></li>
+					<li><a href="judging.html">Judging</a></li>
+					<li><a href="#home">Useful Links</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+
+			<!--nav bar end-->
+
+		</header>
+		<div class="mainContent">
+			<div class="content">
+				<article class="topContent">
+					<content>
+                        <header class="studHeader">
+                            <h1>Useful Links</h1>
+                        </br>
+                        </header>
+                        <div class='top-content-text'>
+                            <h3><a href="http://www.ukboxerdogs.co.uk" target="_blank">www.ukboxerdogs.co.uk</a></h3>
+                                <span>A good reference for looking up champion boxer dogs of old!</span></br>
+                            <h3><a href="http://www.boxerpedigrees.info/search.php" target="_blank">www.boxerpedigrees.info</a></h3>
+                                <span>A good reference for older boxer pedigrees</span></br>
+                            <h3><a href="https://www.thekennelclub.org.uk/services/public/findapuppy/Default.aspx" target="_blank">www.thekennelclub.org.uk</a></h3>
+                                <span>Recommended if you are thinking of buying a puppy</span>
+                        </div>  
+					</content>
+				</article>
+			</div>
+		</div>
+
+        <!--google maps api-->
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATwnOlOOwXIdwonJDCagxaKkNgLzms8Zw&callback=initMap" async defer></script>
+
+    	<footer class="mainFooter">
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 brand-logo">
+					<div class="brand-container"> 
+						<p class="navbar-brand">
+							Farfield Boxers <br> <span class="established-date">Est. 1955</span>
+						</p>
+						<p class="material-icon-container">
+							<i class="material-icons">pets</i>
+						</p>
+					</div>
+                </div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 footer-links">
+                    <div class="footer-main-content">
+                        <h2 class="contact-us">Contact Us</h2>
+                        <p><span class="glyphicon glyphicon-earphone"></span>&nbsp; +44(0)7771 661974</p><br>
+                        <p><span class="glyphicon glyphicon-envelope"></span>&nbsp; <a href="mailto:farfieldboxers@gmail.com">farfieldboxers@gmail.com</a></p>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 brand-logo">
+					<div class="social-links"> 
+						<p class="facebook-link">
+							ADD FACEBOOK LINK HERE
+						</p>
+					</div>
+                </div> -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" id="map-div">
+                    <div class="map">
+                        <div id="map" style="height: 250px; width: 350px"></div>
+                    </div>
+                </div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 footer-copyright">
+					<div class="footer-copyright">
+						<p>Copyright &copy; Farfield Boxers | 2017</p>
+					</div>
+                </div>
+			</div>
+        </footer>
+	</body>
+</html>
